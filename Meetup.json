@@ -1,0 +1,194 @@
+{
+  "luis_schema_version": "2.1.0",
+  "versionId": "0.1",
+  "name": "Meetup",
+  "desc": "",
+  "culture": "en-us",
+  "intents": [
+    {
+      "name": "Help"
+    },
+    {
+      "name": "None"
+    },
+    {
+      "name": "SearchMeetups"
+    }
+  ],
+  "entities": [
+    {
+      "name": "category"
+    }
+  ],
+  "composites": [],
+  "closedLists": [],
+  "bing_entities": [
+    "geography"
+  ],
+  "actions": [],
+  "model_features": [
+    {
+      "name": "category",
+      "mode": true,
+      "words": "Writing,Tech,Support,Sports & Recreation,Sports,Socialising,Social,Singles,Sci - Fi & Fantasy,Sci fi,Religion & Beliefs,Beliefs,Photography,Pets & Animals,Pets,Parents & Family,Mums & Dads,Paranormal,Outdoors & Adventure,Outdoors,New Age & Spirituality,Spirituality,Music,Movies & Film,Films,Lifestyle,Language & Ethnic Identity,Languages,Hobbies & Crafts,Crafts,Health & Wellbeing,Well - being,Movements & Politics,Movements,Games,Food & Drink,Fitness,Fashion & Beauty,Fashion,Education & Learning,Education,Dancing,Community & Environment,Community,Cars & Motorcycles,Auto,Career & Business,Business,Book Clubs,Arts & Culture,Arts,technology",
+      "activated": true
+    }
+  ],
+  "regex_features": [],
+  "utterances": [
+    {
+      "text": "i need help",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "help me",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "what can i do ?",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "what are the available options?",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "hello",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "look for meetups in sydney",
+      "intent": "SearchMeetups",
+      "entities": []
+    },
+    {
+      "text": "can you show me meetups from sydney ?",
+      "intent": "SearchMeetups",
+      "entities": []
+    },
+    {
+      "text": "show me meetups in sydney",
+      "intent": "SearchMeetups",
+      "entities": []
+    },
+    {
+      "text": "best meetups in sydney",
+      "intent": "SearchMeetups",
+      "entities": []
+    },
+    {
+      "text": "meetups in sydney",
+      "intent": "SearchMeetups",
+      "entities": []
+    },
+    {
+      "text": "tech meetups in sydney",
+      "intent": "SearchMeetups",
+      "entities": [
+        {
+          "entity": "category",
+          "startPos": 0,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "best tech meetups in sydney",
+      "intent": "SearchMeetups",
+      "entities": [
+        {
+          "entity": "category",
+          "startPos": 5,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "show me tech meetups in sydney",
+      "intent": "SearchMeetups",
+      "entities": [
+        {
+          "entity": "category",
+          "startPos": 8,
+          "endPos": 11
+        }
+      ]
+    },
+    {
+      "text": "can you show me tech meetups from sydney?",
+      "intent": "SearchMeetups",
+      "entities": [
+        {
+          "entity": "category",
+          "startPos": 16,
+          "endPos": 19
+        }
+      ]
+    },
+    {
+      "text": "looks for tech meetups in sydney",
+      "intent": "SearchMeetups",
+      "entities": [
+        {
+          "entity": "category",
+          "startPos": 10,
+          "endPos": 13
+        }
+      ]
+    },
+    {
+      "text": "find meetups in melbourne",
+      "intent": "SearchMeetups",
+      "entities": []
+    },
+    {
+      "text": "please show me speaking meetups in brisbane",
+      "intent": "SearchMeetups",
+      "entities": [
+        {
+          "entity": "category",
+          "startPos": 15,
+          "endPos": 22
+        }
+      ]
+    },
+    {
+      "text": "search for tech meetups in australia",
+      "intent": "SearchMeetups",
+      "entities": [
+        {
+          "entity": "category",
+          "startPos": 11,
+          "endPos": 14
+        }
+      ]
+    },
+    {
+      "text": "find travel meetups in sydney",
+      "intent": "SearchMeetups",
+      "entities": [
+        {
+          "entity": "category",
+          "startPos": 5,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "find tech meetups in sydney",
+      "intent": "SearchMeetups",
+      "entities": [
+        {
+          "entity": "category",
+          "startPos": 5,
+          "endPos": 8
+        }
+      ]
+    }
+  ]
+}
